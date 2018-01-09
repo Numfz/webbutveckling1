@@ -1,0 +1,10 @@
+
+.apple {
+width:500px;
+height:500px;
+background-color: pink;
+border-radius: 10px;
+border-style: solid;
+box-shadow: 5px 5px 5px #888888;
+padding:7px;
+}

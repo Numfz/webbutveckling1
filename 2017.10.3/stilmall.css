@@ -1,0 +1,55 @@
+
+
+body {
+background-color: grey;
+}
+
+
+.over {
+background-color: lightblue;
+width:200px;
+height: 50px;
+border-radius: 10px;
+border-style: solid;
+box-shadow: 5px 5px 5px #888888;
+padding:7px;
+
+}
+
+.under {
+display:none;
+}
+
+.over:hover .under {
+display: block;
+background-color: lightblue;
+width:180px;
+height: 35px;
+border-radius: 10px;
+border-style: ridge;
+box-shadow: 5px 5px 5px #888888;
+padding:7px;
+}
+.what {
+    width: 1660px;
+    height: 500px;
+    background-color: pink;
+    align-items: center;
+    align-self: flex-end;
+flex-direction: row;
+flex-wrap: wrap;
+border-style:solid;
+border-color: white;
+justify-content: space-around;
+display: flex;
+}
+.bun {
+width: 400px;
+height:400px;
+background-color: white;
+ justify-content:space-between;
+
+
+
+
+}

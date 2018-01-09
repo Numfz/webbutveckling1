@@ -1,0 +1,15 @@
+.flex-container {
+    display:flex;
+    width: 450px;
+    height: 450px;
+    background-color: green;
+    flex-direction: column;
+    justify-content:flex-start;
+  }
+
+.bb {
+background-color: red;
+  border-style: solid;
+  width: 30px;
+  height: 30px;
+}
