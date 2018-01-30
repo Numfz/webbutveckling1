@@ -1,0 +1,39 @@
+body{
+  max-width: 600px;
+  margin:auto; /*lika mkt utrymme till höger och till vänster
+  innehållet i body hamnar mitt i*/
+}
+
+.container{
+  background-color: pink;
+}
+.dropdown {
+  display:inline-block;
+/*  display:inline;
+  display:block;
+  display:none;*/
+position: static;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: red;
+
+}
+
+.dropdown-content:hover{
+  background-color: red;
+}
+.dropdown-content a{
+  background-color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a{
+  background-color: yellow;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

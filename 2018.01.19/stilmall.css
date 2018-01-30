@@ -1,0 +1,32 @@
+ body{
+   background-color: purple;
+}
+
+.over{
+  width: 120px;
+  height: 40px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  border: 3px solid;
+  border-radius: 10px;
+  border-style: solid;
+  box-shadow: 5px;
+  padding:7px;
+
+}
+
+.under {
+display:none;
+}
+
+.over:hover .under {
+display: block;
+background-color: lightblue;
+width:180px;
+height: 35px;
+border-radius: 10px;
+border-style: ridge;
+box-shadow: 5px;
+padding:7px;
+}
