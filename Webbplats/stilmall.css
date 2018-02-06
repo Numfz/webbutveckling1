@@ -1,0 +1,56 @@
+body{
+  background-color: black;
+}
+
+.container
+{
+  height: 30px;
+  background-color: grey;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  border-style: inset;
+}
+
+.item{
+  height: 30px;
+  width: 120px;
+  background-color: #6699cc;
+  display: flex;
+}
+
+.box{
+  height: 800px;
+  background-color: grey;
+  border-style: inset;
+    flex-direction: row;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+
+.page{
+  height: 400px;
+  width: 250px;
+  background-color: darkgrey;
+  display: flex;
+  border-style: inset;
+  justify-content: space-around;
+}
+  table {
+border-style: solid;
+border-color: #13263a;
+  background-color: #264d73;
+  color: white;
+}
+tr {
+}
+td{
+border-style: solid;
+border-color: #6699cc;
+}
+.down{
+  height: 30px;
+  background-color: grey;
+  border-style: inset;
+}
