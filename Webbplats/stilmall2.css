@@ -1,21 +1,23 @@
-
+body{
+  background-color: grey;
+}
 .songs{
   width:;
   height:200px;
-  background-color: #7eb4cc;
+  background-color: white;
   border-radius: 10px;
-  border-style: solid;
-  box-shadow: 5px 5px 5px #888888;
+
+  box-shadow: 5px 5px 5px white;
   padding:7px;
 
 }
 .box {
-width:;
+width:500px;
 height:;
-background-color: grey;
-border-radius: 10px;
-border-style: solid;
-box-shadow: 5px 5px 5px #888888;
+background-color: white;
+
+border-style: hidden;
+
 padding:7px;
 }
 
@@ -31,4 +33,5 @@ tr {
 td{
 border-style: inset;
 border-color: #80b5cb;
+
 }
