@@ -6,8 +6,11 @@ body{
 
 .container{
   background-color: pink;
+<<<<<<< HEAD
   direction: rtl;
   border-style: solid;
+=======
+>>>>>>> 078d6989549431af4a45ad7953921ebc33e8bad9
 }
 .dropdown {
   display:inline-block;

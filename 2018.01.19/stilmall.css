@@ -1,6 +1,9 @@
  body{
    background-color: purple;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 078d6989549431af4a45ad7953921ebc33e8bad9
 }
 
 .over{
@@ -11,11 +14,16 @@
   flex-direction: row;
   border: 3px solid;
   border-radius: 10px;
+<<<<<<< HEAD
+=======
+  border-style: solid;
+>>>>>>> 078d6989549431af4a45ad7953921ebc33e8bad9
   box-shadow: 5px;
   padding:7px;
 
 }
 
+<<<<<<< HEAD
 .over-content{
   display: none;
 }
@@ -48,4 +56,19 @@ width:600px;
 
 
 
+=======
+.under {
+display:none;
+}
+
+.over:hover .under {
+display: block;
+background-color: lightblue;
+width:180px;
+height: 35px;
+border-radius: 10px;
+border-style: ridge;
+box-shadow: 5px;
+padding:7px;
+>>>>>>> 078d6989549431af4a45ad7953921ebc33e8bad9
 }

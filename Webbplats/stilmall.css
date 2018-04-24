@@ -1,5 +1,9 @@
 body{
+<<<<<<< HEAD
   background-color: #7eb4cc;
+=======
+  background-color: black;
+>>>>>>> 078d6989549431af4a45ad7953921ebc33e8bad9
 }
 
 .container
@@ -27,7 +31,10 @@ body{
   justify-content: space-around;
   display: flex;
   align-items: center;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 078d6989549431af4a45ad7953921ebc33e8bad9
 }
 
 .page{
@@ -37,12 +44,20 @@ body{
   display: flex;
   border-style: inset;
   justify-content: space-around;
+<<<<<<< HEAD
   flex-direction: column;
 }
   table {
 border-style: solid;
 border-color: lightgrey;
   background-color: grey;
+=======
+}
+  table {
+border-style: solid;
+border-color: #13263a;
+  background-color: #264d73;
+>>>>>>> 078d6989549431af4a45ad7953921ebc33e8bad9
   color: white;
 }
 tr {
@@ -51,6 +66,7 @@ td{
 border-style: solid;
 border-color: #6699cc;
 }
+<<<<<<< HEAD
 
 
 .item-content{
@@ -74,4 +90,10 @@ border-color: #6699cc;
 
 .item:hover .item-content {
   display: block;
+=======
+.down{
+  height: 30px;
+  background-color: grey;
+  border-style: inset;
+>>>>>>> 078d6989549431af4a45ad7953921ebc33e8bad9
 }
