@@ -1,0 +1,31 @@
+ .body{
+   background-color: lightblue;
+ }
+
+ .sbox{
+   width: 300px;
+   height: 300px;
+   background-color: lightgreen;
+   display: flex;
+   border-style: solid;
+   flex-direction: column;
+   justify-content: space-around;
+
+  }
+
+ .rad{
+   background-color: white;
+   border-style: solid;
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row-reverse;
+}
+
+.item{
+  width: 40px;
+  height: 40px;
+  background-color: pink;
+  border-style: solid;
+  display: flex;
+
+}
